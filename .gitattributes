@@ -1,11 +1,12 @@
 # Git-crypt конфигурация
 # Шифруем весь код и конфиги
 
-# Код
+# Код (включая модули в src/)
 *.js filter=git-crypt diff=git-crypt
 *.html filter=git-crypt diff=git-crypt
 *.css filter=git-crypt diff=git-crypt
 *.json filter=git-crypt diff=git-crypt
+src/** filter=git-crypt diff=git-crypt
 
 # Конфиги и важные файлы
 *.txt filter=git-crypt diff=git-crypt
